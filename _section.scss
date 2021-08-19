@@ -1,0 +1,91 @@
+.section_container{
+    margin-top: 30px;
+    padding-left: 20px;
+
+    .divs{
+        display: inline-block;
+        width: 100%;
+        background: white;
+        border: 1px solid white;
+        border-radius: 15px;
+        display: flex;
+        margin-bottom: 15px;
+        text-decoration: none;
+
+        &:hover{
+            border: 1px solid #334680;
+        }
+
+        img{
+            padding: 15px;
+            border-radius: 25px;
+        }
+
+        .info_divs{
+            padding-top: 15px;
+            width: 100%;
+            margin-left: 5px;
+
+            h3{
+                font-size: 13px;
+                color: #334680;
+            }
+
+            p{
+                padding-top: 13px;
+                font-size: 20px;
+                color: #334680;
+            }
+
+            .complements{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-top: 10px;
+
+                button{
+                    width: 75px;
+                    height: 25px;
+                    border: 1px solid grey;
+                    border-radius: 5px;
+                    background: white;
+                    color: grey;
+                }
+
+                ul{
+                    display: flex;
+                    margin-right: 20px;
+
+                    li{
+                        margin: 10px;
+                        color: gray;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    .selectors{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+
+        li{
+            margin-right: 15px;
+        
+            a{
+                text-decoration: none;
+                background: white;
+                padding: 8px 12px;
+                border: 1px solid white;
+                border-radius: 10px;
+                color: #334680;
+
+                &:hover{
+                    border: 1px solid #334680;
+                }
+            }
+        }
+    }
+}

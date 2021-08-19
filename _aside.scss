@@ -1,0 +1,40 @@
+.aside_container{
+    margin-top: 30px;
+
+    h2{
+        font-size: 20px;
+        color: grey;
+    }
+
+    .input_location{
+        margin-top: 15px;
+        height: 45px;
+        width: 265px;
+        border: 1px solid white;
+        border-radius: 5px;
+
+        &::placeholder{
+            padding-left: 15px;
+            color: gray;
+            font-size: 13px;
+        }
+
+        &:hover{
+            border: 1px solid #334680;
+        }
+    }
+
+    .ul_aside{
+        margin-top: 20px;
+
+        li{
+            margin-top: 10px;
+
+            label{
+                margin-left: 5px;
+                color: #334680;
+            }
+        }
+    }
+    
+}
